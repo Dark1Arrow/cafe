@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "title": "Badam Kulfi",
+            "description": "Badam Kulfi is a popular North Indian dessert recipe.",
+            "price": 2,
+            "image": "https://static.toiimg.com/thumb/52819928.cms?imgsize=123857&width=800&height=800"
+        },
+        {
+            "title": "Mango Coffee",
+            "description": "Smooth fruit flavor with a kick of caffeine and sweet cream.",
+            "price": 2.5,
+            "image": "https://images.ctfassets.net/0dkgxhks0leg/AiydcIt6edim5A24J7516/8490933042267d9cc535609b5d9bbb3d/TF_cold_20mango_20coffee_141.jpg"
+        },
+        {
+            "title": "Masala Chai Royal",
+            "description": "Traditional Indian masala chai brewed with premium Assam tea.",
+            "price": 1.5,
+            "image": "https://images.pexels.com/photos/5947062/pexels-photo-5947062.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Belgian Dark Chocolate",
+            "description": " An intense and velvety ice cream made from the finest Belgian dark chocolate. ",
+            "price": 2,
+            "image": "https://images.pexels.com/photos/4109793/pexels-photo-4109793.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Caramel Macchiato",
+            "description": "A delightful blend of espresso, steamed milk, and rich caramel syrup. ",
+            "price": 2.2,
+            "image": "https://images.pexels.com/photos/3151766/pexels-photo-3151766.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Chai Hot Cocoa",
+            "description": "A decadent fusion of rich hot cocoa and traditional spiced chai. ",
+            "price": 1.8,
+            "image": "https://images.pexels.com/photos/9770425/pexels-photo-9770425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    ]
+}

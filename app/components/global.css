@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-image: url('/logo.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur();
+}
+.bgg {
+  background-image: url('/logo1.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur();
+}
+
+.cross {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .link {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+  }
+
+  .homeLink {
+    padding-left: 10vw;
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 70vw;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    transition: 0.75s ease-in-out;
+    z-index: 20;
+  }
+
+  .cross {
+    display: block;
+  }
+
+  #sidebar:checked~.homeLink {
+    right: 0;
+    display: flex;
+    background-color: rgb(190, 190, 190);
+  }
+
+  #sidebar:checked~#overlay {
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+.bg-image{
+  background-image: url('/image1.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur();
+}
