@@ -26,7 +26,7 @@ const Navbar = ({ link }) => {
         className='w-full py-3 h-full bg-gray-800 text-white drop-shadow-md'>
         <nav className='flex h-full w-full  justify-between items-center md:px-16 px-6 p-2'>
           <div>
-            <Image className='w-[90px]' src={Coco} alt="" />
+            <Image className='w-[90px] h-auto' src={Coco} alt="" />
           </div>
           <div>
             <input className='hidden' id='sidebar' type="checkbox" />

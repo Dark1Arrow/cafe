@@ -1,8 +1,7 @@
 "use client"
 import React from 'react'
-import { delay, easeInOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import paymentBox from '../components/paymentBox';
 
 const variants = {
     hidden: { opacity: 0, x: 100 },
@@ -18,12 +17,6 @@ const variants = {
 
 const pramium = ({ t, index }) => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 })
-
-    const buyCard = () =>{
-        return(
-          <paymentBox/>
-        )
-      }
 
     return (
         <motion.div className='overflow-auto'
@@ -56,8 +49,7 @@ const pramium = ({ t, index }) => {
                                 whileTap={{ scale: 0.9 }}
                                 whileHover={{ scale: 1.1, color: "#E0E0E0" }}
                                 transition={{ bounceDamping: 10, bounceStiffness: 600 }}
-                                className='mt-2 bg-[#EE7A19] text-white text-lg p-2 rounded-[30px] px-8' onClick={()=>{buyCard()}} >Buy</motion.button>
-                                
+                                className='mt-2 bg-[#EE7A19] text-white text-lg p-2 rounded-[30px] px-8' >Buy</motion.button>
                         </div>
                     </div>
                 </motion.div>

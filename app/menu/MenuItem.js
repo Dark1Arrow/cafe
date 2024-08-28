@@ -48,7 +48,7 @@ const MenuItem = ({ selectedItem }) => {
                 {menu.map((t, i) => {
                     if (t.name === selectedItem) {
                         return (
-                            <motion.div variants={{ hidden: { opacity: 0, x: 100 }, show: { opacity: 1, x: 0, transition: { delay: 0.2 * i / 5 } } }} key={t.id} className='drop-shadow-lg m-3 mx-10 backdrop-blur-lg bg-black/20 h-[400px] flex flex-col'>
+                            <motion.div key={i}  variants={{ hidden: { opacity: 0, x: 100 }, show: { opacity: 1, x: 0, transition: { delay: 0.2 * i / 5 } } }} className='drop-shadow-lg m-3 mx-10 backdrop-blur-lg bg-black/20 h-[400px] flex flex-col'>
                                 <div className='w-full min-h-[70%] mx-auto '
                                     style={{
                                         backgroundImage: `url(${t.image})`,

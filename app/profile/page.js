@@ -2,36 +2,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Chart from './chart'
-import CustomPieChart from './CustomPieChart'
 import { useState, useEffect } from 'react'
 
-const getProfile = async () => {
-    try {
-        const res = await fetch("/api/Profile", { cache: "no-store" });
-
-        if (!res.ok) {
-            throw new Error("Failed to fetch");
-        }
-        return res.json();
-    } catch (error) {
-        console.error(error);
-    }
-};
 
 const Profile = () => {
 
     const [profile, setProfile] = useState([]);
     const [id, setId] = useState(null)
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const data = await getProfile();
-            setProfile(data.profile || []);
-        };
-        fetchData();
-    }, []);
-
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
