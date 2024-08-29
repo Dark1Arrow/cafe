@@ -37,7 +37,7 @@ const Navbar = ({ link }) => {
             <div className='homeLink  lg:gap-9 gap-2 justify-between items-center'>
               <div>
                 <label className='cross py-4' For="sidebar">
-                  <Image src={cross} alt='' />
+                  <Image src={cross} className='w-auto h-auto' alt='' />
                 </label>
               </div>
               <motion.div >

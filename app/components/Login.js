@@ -33,7 +33,7 @@ const Login = () => {
                 <div className='z-20 w-[90vw] sm:w-[70vw] md:w-[50vw] lg:w-[40vw] xl:w-[25vw] h-[80vh] m-auto rounded-3xl bg-[#F4F4F4]'>
                     <div className='flex justify-center text-center'>
                         <div className='text-2xl p-6 font-semibold m-auto'>Sign up</div>
-                        <div className='py-5 pr-5 cursor-pointer'><Image onClick={handleChange} width="20" height="20" src="/cross.svg" /></div>
+                        <div className='py-5 pr-5 cursor-pointer'><Image className='h-auto w-auto' alt="" onClick={handleChange} width={20} height={20} src="/cross.svg" /></div>
                     </div>
 
                     <div className='w-full h-[2px] bg-[#C1C1C1]'></div>
@@ -83,7 +83,7 @@ const Login = () => {
                 <div className='z-20 w-[90vw] sm:w-[70vw] md:w-[50vw] lg:w-[40vw] xl:w-[25vw] h-[60vh] m-auto rounded-3xl bg-[#F4F4F4]'>
                     <div className='flex justify-center text-center'>
                         <div className='text-2xl p-6 font-semibold m-auto'>Login</div>
-                        <div className='py-5 pr-5 cursor-pointer'><Image onClick={handleChange} width="20" height="20" src="/cross.svg" /></div>
+                        <div className='py-5 pr-5 cursor-pointer'><Image className='h-auto w-auto'  alt=" " onClick={handleChange} src="/cross.svg" width={20} height={20} /></div>
                     </div>
 
                     <div className='w-full h-[2px] bg-[#C1C1C1]'></div>

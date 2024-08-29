@@ -69,7 +69,7 @@ const Footer = () => {
                     <motion.div initial={{ opacity: 0, y:-50}}
                         animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y:-50 }}
                         transition={{ duration: 0.5, delay: 0.2 }} >
-                        <Image className='md:w-[120px] w-[90px]' src={Coco} alt="" />
+                        <Image className='md:w-[120px] w-[90px]' src={Coco} alt=" " />
                     </motion.div>
                 </div>
 
@@ -88,15 +88,15 @@ const Footer = () => {
                         className='xl:w-2/5 w-[80vw] sm:w-[60vw] sm:h-[15vh] h-[18vh] mx-auto  bg-white/10 p-5 backdrop-blur-sm drop-shadow-md'>
                             <div className='flex flex-col  justify-center gap-5 text-center'>
                                 <div className='flex justify-center gap-14'>
-                                    <Image className='w-[20px]' src={link} alt="" />
+                                    <Image className='w-[20px]' src={link} alt=" " />
                                     <div className='text-[#C1C1C1] text-2xl'>online contact</div>
                                 </div>
                                 <div className='flex justify-between text-center w-[60vw] sm:w-[30vw] xl:w-[13vw] mx-auto'>
-                                    <Image className='w-[25px]' src={Facebook} alt="" />
-                                    <Image className='w-[25px]' src={Instagram} alt="" />
-                                    <Image className='w-[25px]' src={Twiter} alt="" />
-                                    <Image className='w-[25px]' src={Linkdin} alt="" />
-                                    <Image className='w-[25px]' src={Youtube} alt="" />
+                                    <Image className='w-[25px]' src={Facebook} alt=" " />
+                                    <Image className='w-[25px]' src={Instagram} alt=" " />
+                                    <Image className='w-[25px]' src={Twiter} alt=" " />
+                                    <Image className='w-[25px]' src={Linkdin} alt=" " />
+                                    <Image className='w-[25px]' src={Youtube} alt=" " />
                                 </div>
                             </div>
                         </motion.div>
@@ -107,7 +107,7 @@ const Footer = () => {
                          className='xl:w-2/5 w-[80vw] sm:w-[60vw] sm:h-[15vh] h-[18vh] mx-auto bg-white/10 backdrop-blur-sm drop-shadow-md'>
                             <div className='flex flex-col py-5 justify-center gap-2 text-center'>
                                 <div className='flex justify-center gap-14'>
-                                    <Image className='w-[20px]' src={chai} alt="" />
+                                    <Image className='w-auto h-auto' width={20} src={chai} alt=" " />
                                     <div className='text-[#C1C1C1] text-2xl'>our cafe Address</div>
                                 </div>
                                 <div className='flex justify-between text-center w-[70vw] sm:w-[40vw] xl:w-[20vw] mx-auto text-[#C1C1C1]'> Chai Street Spice Town, Mumbai, Maharashtra 400001</div>

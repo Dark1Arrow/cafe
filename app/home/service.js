@@ -38,7 +38,7 @@ const service = () => {
             <motion.div variants={{ hidden: { opacity: 0, y: 50 }, show: { y: 0, opacity: 1, transition: { delay: 0.2 * index } } }}
               key={index} className='min-w-[370px] bg-[#2C2E2D] rounded-3xl flex gap-3 flex-col justify-center items-center drop-shadow-xl'>
               <div>
-                <Image alt=''  width="170" height="180" src={serviceImage[index]} />
+                <Image className='w-auto h-auto'  src={serviceImage[index]} alt=' '  width={170} height={180} />
               </div>
               <div className='flex flex-col  gap-2'>
                 <h1 className='w-full text-xl font-semibold text-[#EE7A19]'> {service[index]}</h1>
