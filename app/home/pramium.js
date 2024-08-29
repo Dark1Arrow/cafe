@@ -15,7 +15,7 @@ const variants = {
     },
 };
 
-const pramium = ({ t, index }) => {
+const Pramium = ({ t, index }) => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 })
 
     return (
@@ -58,4 +58,4 @@ const pramium = ({ t, index }) => {
     )
 }
 
-export default pramium
+export default Pramium

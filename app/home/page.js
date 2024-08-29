@@ -3,9 +3,9 @@ import React from 'react'
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
 import Slider from './Slider';
-import Service from './service';
-import Pramium from './pramium';
-import Review from './review';
+import Service from './Service';
+import Pramium from './Pramium';
+import Review from './Review';
 import "@/app/components/global.css";
 import Login from '../components/Login';
 import { useState, useEffect } from 'react';

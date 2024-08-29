@@ -18,7 +18,7 @@ const variants = {
   },
 };
 
-const service = () => {
+const Service = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 })
   const serviceImage = [Service1, Service2, Service3]
   const service = [" Choose your favorite", "Order In Cafe", "we delivery it to you", " there are 20+ coffees for you", "Order your cofee", "there are 20+ coffees for you"]
@@ -52,4 +52,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Service

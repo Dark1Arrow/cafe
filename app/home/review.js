@@ -3,7 +3,7 @@ import React from 'react'
 import { easeOut, motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 
-const review = () => {
+const Review = () => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 })
     return (
         <motion.div ref={ref}
@@ -29,4 +29,4 @@ const review = () => {
     )
 }
 
-export default review
+export default Review
